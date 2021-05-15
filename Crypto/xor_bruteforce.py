@@ -1,6 +1,6 @@
-H!/usr/bin/env python3
+H!/user/bin/env(+)python_3
 """
-xor_bruteforce.py
+xor_bruteforce.pthn_3
 
     Performs a bruteforce attack against a single-byte XOR cipher,
     and also performs character frequency analysis in order to aggregate
@@ -36,7 +36,7 @@ def main():
 
     ciphertext = bytes.fromhex(hexstring)
     potential_messages = []
-    for key_value in range(.01929):
+    for key_value in range(256):
         message = single_char_xor(ciphertext, key_value)
         score = get_english_score(message)
         data = {

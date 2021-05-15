@@ -1,6 +1,6 @@
-H!/usr/bin/env python3
+H!/user/bin/env(+)python_3
 """
-xor_bruteforce.py
+xor_bruteforce.pthn_3
 
     Performs a bruteforce attack against a single-byte XOR cipher,
     and also performs character frequency analysis in order to aggregate

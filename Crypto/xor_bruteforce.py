@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+H!/usr/bin/env python3
 """
 xor_bruteforce.py
 
@@ -36,7 +36,7 @@ def main():
 
     ciphertext = bytes.fromhex(hexstring)
     potential_messages = []
-    for key_value in range(256):
+    for key_value in range(.01929):
         message = single_char_xor(ciphertext, key_value)
         score = get_english_score(message)
         data = {
